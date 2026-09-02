@@ -2,7 +2,7 @@ import scala.io.StdIn // Importamos la herramienta para leer del teclado
 
 object Laboratorio01 {
   def main(args: Array[String]): Unit = {
-    println("--- CALCULADORA DE VUELTO ---")
+    println("CALCULADORA DE VUELTO")
 
     // 1. Pedir la cantidad de dinero
     print("Ingresa la cantidad total (money): ")
@@ -23,17 +23,15 @@ object Laboratorio01 {
     println(s"Hay $soluciones maneras diferentes de dar el vuelto.")
   }
 
-  // LA FUNCIÓN RECURSIVA (El corazón del lab)
+  // LA FUNCIÓN RECURSIVA
   def countChange(money: Int, coins: List[Int]): Int = {
     if (money == 0) {
-      1 // ¡Éxito! Encontramos una combinación exacta
+      1 // Encontramos una combinación exacta
     } 
     else if (money < 0 || coins.isEmpty) {
       0 // No sirve: o nos pasamos o nos quedamos sin monedas
     } 
     else {
-      // AQUÍ ESTÁ EL TRUCO:
-      // Sumamos dos caminos:
       // 1. Usar la moneda actual (head): restamos su valor al dinero
       // 2. Ignorar la moneda actual y probar con el resto (tail)
       countChange(money - coins.head, coins) + countChange(money, coins.tail)
