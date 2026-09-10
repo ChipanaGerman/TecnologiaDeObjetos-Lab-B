@@ -145,3 +145,12 @@ La integridad y seguridad de la información dentro del sistema se evidencia en 
 
 * **Aislamiento de Ámbito en la Dependencia:**
   En la clase `Reporte`, la relación con `Estudiante` es puramente transitoria por parámetro de método. Al no guardarse una referencia de `Estudiante` como atributo persistente de `Reporte`, se evita la persistencia innecesaria en memoria y se neutraliza cualquier posibilidad de efectos secundarios colaterales (*side-effects*) sobre los datos del alumno.
+
+## Comparativa Técnica: Java vs Python vs C++
+
+| Característica | Java | Python | C++ |
+| :--- | :--- | :--- | :--- |
+| **Modelo de Ejecución** | Híbrido (compilado a Bytecode y ejecutado por la JVM). Muy balanceado y multiplataforma. | Interpretado. Ideal para programar rápido, pero su ejecución es un poco más lenta al ser traducida al vuelo. | Compilado a código máquina. Extremadamente veloz porque interactúa directo con el procesador. |
+| **Gestión de Memoria** | Automática mediante Garbage Collector. Te olvidas de limpiar la memoria, Java lo hace por ti. | Automática mediante Garbage Collector. Muy cómodo y evita errores de pérdida de memoria. | Manual o semi-automática (RAII). Tienes control total; tú eres responsable de la limpieza o de usar punteros inteligentes. |
+| **Tipado** | Estático y estricto. Declaras el tipo desde el principio y se respeta en todo momento. | Dinámico por naturaleza. Aunque en nuestra versión usamos 	yping para simular un control estricto. | Estático y riguroso. Control absoluto sobre los tipos, punteros y referencias de memoria. |
+| **Verbosidad/Sintaxis** | Verboso. Te obliga a escribir explícitamente public, private, setters, getters y usar punto y coma. | Amigable y directa. Menos líneas de código, se lee casi como inglés y usa indentación en lugar de llaves. | Compleja pero poderosa. Requiere entender la sintaxis de punteros (*) y direcciones de memoria (&). |
