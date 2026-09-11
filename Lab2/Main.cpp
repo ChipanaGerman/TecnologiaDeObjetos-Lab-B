@@ -2,9 +2,8 @@
 #include <string>
 #include <vector>
 
-// 1. HERENCIA: Clase Base
-// Usamos protected o private según corresponda, y getters/setters.
-// Se recomienda usar std::string para cadenas y virtual destructors en clases base.
+// --- 1. HERENCIA ---
+// Clase Base
 class Persona {
 private:
     std::string nombre;
@@ -13,7 +12,9 @@ private:
 public:
     Persona() : nombre(""), edad(0) {}
     Persona(const std::string& nombre, int edad) : nombre(nombre), edad(edad) {}
-    virtual ~Persona() = default; // Destructor virtual para correcta destrucción de derivadas
+    
+    // Destructor virtual, buena práctica cuando hay herencia
+    virtual ~Persona() = default; 
 
     std::string getNombre() const { return nombre; }
     void setNombre(const std::string& n) { nombre = n; }
@@ -21,13 +22,13 @@ public:
     int getEdad() const { return edad; }
     void setEdad(int e) { edad = e; }
 
-    // Método virtual para permitir override, simulando el comportamiento de Java toString().
+    // Usamos virtual para poder sobreescribirlo en las hijas (como el toString en Java)
     virtual std::string toString() const {
         return "Persona [nombre=" + nombre + ", edad=" + std::to_string(edad) + "]";
     }
 };
 
-// 1. HERENCIA: Clases Hijas
+// Clases Hijas
 class Profesor : public Persona {
 private:
     std::string especialidad;
@@ -62,7 +63,8 @@ public:
     }
 };
 
-// 2. COMPOSICIÓN: Horario es parte vital de Curso
+// --- 2. COMPOSICIÓN ---
+// El Horario le pertenece completamente al Curso
 class Horario {
 private:
     std::string dias;
@@ -86,13 +88,12 @@ public:
 class Curso {
 private:
     std::string nombre;
-    // Composición: Horario pertenece enteramente a Curso.
-    // En C++ esto se representa usando objetos como miembros por valor en vez de punteros.
+    // Composición: el Horario nace y muere junto con el Curso
     Horario horario;
 
 public:
     Curso(const std::string& nombre, const std::string& dias, const std::string& horas)
-        : nombre(nombre), horario(dias, horas) {} // Se instancia junto con el Curso
+        : nombre(nombre), horario(dias, horas) {} 
 
     std::string getNombre() const { return nombre; }
     void setNombre(const std::string& n) { nombre = n; }
@@ -105,12 +106,12 @@ public:
     }
 };
 
-// 3. AGREGACIÓN: Universidad contiene Cursos independientes
+// --- 3. AGREGACIÓN ---
+// La Universidad tiene cursos, pero no es dueña exclusiva de ellos
 class Universidad {
 private:
     std::string nombre;
-    // Agregación: La universidad conoce los cursos pero no es dueña absoluta de su ciclo de vida.
-    // Para simplificar y emular el comportamiento de Java (referencias), usamos punteros crudos observadores.
+    // Agregación: Usamos punteros porque los cursos ya existen por fuera
     std::vector<Curso*> listaCursos;
 
 public:
@@ -122,7 +123,7 @@ public:
 
     const std::vector<Curso*>& getListaCursos() const { return listaCursos; }
 
-    // Agregación: Se recibe un puntero al curso que existe fuera de este objeto.
+    // Recibimos la dirección de memoria del curso para guardarlo en la lista
     void agregarCurso(Curso* curso) {
         listaCursos.push_back(curso);
     }
@@ -132,12 +133,13 @@ public:
     }
 };
 
-// 4. DEPENDENCIA: Reporte usa temporalmente a Estudiante
+// --- 4. DEPENDENCIA ---
+// Reporte solo necesita leer los datos del estudiante un momento
 class Reporte {
 public:
     Reporte() = default;
 
-    // Dependencia: Pasamos una referencia constante para evitar copias y marcar que solo la "usamos"
+    // Dependencia: Pasamos una referencia constante para solo leer los datos sin copiarlos
     void generarReporteEstudiante(const Estudiante& estudiante) const {
         std::cout << "==========================================\n";
         std::cout << "       REPORTE ACADÉMICO DE ESTUDIANTE    \n";
@@ -154,11 +156,11 @@ public:
     }
 };
 
-// PROGRAMA PRINCIPAL (Main)
+// --- PROGRAMA PRINCIPAL ---
 int main() {
     std::cout << "        SISTEMA DE GESTIÓN UNIVERSITARIA          \n\n\n";
 
-    // 1. Creación de 2 profesores (Herencia)
+    // 1. Herencia: Instanciando a los profes y estudiantes
     Profesor prof1("Dr. Carlos Ruiz", 48, "Sistemas Distribuidos");
     Profesor prof2("MSc. Ana Paredes", 39, "Arquitectura de Software");
 
@@ -166,7 +168,6 @@ int main() {
     std::cout << prof1.toString() << "\n";
     std::cout << prof2.toString() << "\n\n";
 
-    // 2. Creación de 3 estudiantes (Herencia)
     Estudiante est1("Juan Perez", 20, "20220101");
     Estudiante est2("Maria Lopez", 22, "20210452");
     Estudiante est3("Luis Quispe", 21, "20221189");
@@ -176,7 +177,7 @@ int main() {
     std::cout << est2.toString() << "\n";
     std::cout << est3.toString() << "\n\n";
 
-    // 3. Creación de 2 cursos (Composición con Horario)
+    // 2. Composición: Se crea el curso y su horario implícitamente
     Curso curso1("Tecnologia de Objetos", "Lunes y Miercoles", "08:00 - 10:00");
     Curso curso2("Bases de Datos Avanzadas", "Martes y Jueves", "14:00 - 16:00");
 
@@ -184,9 +185,9 @@ int main() {
     std::cout << curso1.toString() << "\n";
     std::cout << curso2.toString() << "\n\n";
 
-    // 4. Agregar cursos a la Universidad (Agregación)
+    // 3. Agregación: Pasamos las direcciones de los cursos a la universidad
     Universidad uni("Universidad Nacional Tecnológica");
-    uni.agregarCurso(&curso1); // Pasamos puntero del curso
+    uni.agregarCurso(&curso1); 
     uni.agregarCurso(&curso2);
 
     std::cout << "--- Universidad y Cursos Agregados ---\n";
@@ -196,7 +197,7 @@ int main() {
     }
     std::cout << "\n";
 
-    // 5. Generar reporte de un estudiante (Dependencia)
+    // 4. Dependencia: Pasamos el estudiante para sacar el reporte
     Reporte reporte;
     reporte.generarReporteEstudiante(est1);
 

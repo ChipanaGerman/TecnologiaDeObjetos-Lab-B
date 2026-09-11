@@ -1,14 +1,11 @@
 import typing
 from typing import List
 
-# 1. HERENCIA: Clase Base
-# En Python, todas las clases heredan implícitamente de `object`.
-# Usamos tipado estático para definir los atributos en el método __init__.
+# --- 1. HERENCIA ---
+# Clase Base
 class Persona:
     def __init__(self, nombre: str = "", edad: int = 0) -> None:
-        # En Python, el encapsulamiento se simula convencionalmente con un guion bajo 
-        # (para "protected") o dos (para "private"). Usamos getters y setters
-        # con decoradores @property o métodos explícitos para mantener la paridad lógica con Java.
+        # Usamos un guion bajo para simular el 'private' de Java
         self._nombre: str = nombre
         self._edad: int = edad
 
@@ -24,15 +21,14 @@ class Persona:
     def set_edad(self, edad: int) -> None:
         self._edad = edad
 
-    # Adaptación de toString() de Java a __str__() en Python.
+    # Equivalente al toString()
     def __str__(self) -> str:
         return f"Persona [nombre={self._nombre}, edad={self._edad}]"
 
-# 1. HERENCIA: Clases Hijas
-# En Python, la herencia se indica pasando la clase padre como parámetro en la definición de la clase.
+# Clases Hijas que heredan de Persona
 class Profesor(Persona):
     def __init__(self, nombre: str = "", edad: int = 0, especialidad: str = "") -> None:
-        # super().__init__() llama al constructor de la clase base, equivalente a super() en Java.
+        # Llamamos al constructor de la clase padre
         super().__init__(nombre, edad)
         self._especialidad: str = especialidad
 
@@ -43,7 +39,6 @@ class Profesor(Persona):
         self._especialidad = especialidad
 
     def __str__(self) -> str:
-        # Llamar a super().__str__() es equivalente a super().toString() en Java.
         return f"Profesor [{super().__str__()}, especialidad={self._especialidad}]"
 
 class Estudiante(Persona):
@@ -60,7 +55,8 @@ class Estudiante(Persona):
     def __str__(self) -> str:
         return f"Estudiante [{super().__str__()}, codigo={self._codigo_estudiante}]"
 
-# 2. COMPOSICIÓN: Horario es parte vital de Curso
+# --- 2. COMPOSICIÓN ---
+# El Horario no tiene sentido sin un Curso
 class Horario:
     def __init__(self, dias: str = "", horas: str = "") -> None:
         self._dias: str = dias
@@ -84,8 +80,7 @@ class Horario:
 class Curso:
     def __init__(self, nombre: str, dias: str, horas: str) -> None:
         self._nombre: str = nombre
-        # Composición: el Horario nace y está íntimamente ligado al Curso
-        # Al igual que en Java, lo instanciamos internamente.
+        # Aquí se ve la composición: instanciamos el Horario dentro del Curso
         self._horario: Horario = Horario(dias, horas)
 
     def get_nombre(self) -> str:
@@ -103,11 +98,11 @@ class Curso:
     def __str__(self) -> str:
         return f"Curso [nombre={self._nombre}, {self._horario.__str__()}]"
 
-# 3. AGREGACIÓN: Universidad contiene Cursos independientes
+# --- 3. AGREGACIÓN ---
+# La Universidad agrupa Cursos, pero los cursos existen por su cuenta
 class Universidad:
     def __init__(self, nombre: str = "") -> None:
         self._nombre: str = nombre
-        # Tipado para indicar que la lista contiene objetos de tipo Curso
         self._lista_cursos: List[Curso] = []
 
     def get_nombre(self) -> str:
@@ -119,19 +114,20 @@ class Universidad:
     def get_lista_cursos(self) -> List[Curso]:
         return self._lista_cursos
 
-    # Agregación: Recibe cursos ya existentes exteriormente
+    # Recibimos el curso desde afuera y lo agregamos a la lista
     def agregar_curso(self, curso: Curso) -> None:
         self._lista_cursos.append(curso)
 
     def __str__(self) -> str:
         return f"Universidad [nombre={self._nombre}, cantidadCursos={len(self._lista_cursos)}]"
 
-# 4. DEPENDENCIA: Reporte usa temporalmente a Estudiante
+# --- 4. DEPENDENCIA ---
+# El Reporte solo usa al Estudiante un rato para imprimir sus datos
 class Reporte:
     def __init__(self) -> None:
         pass
 
-    # Dependencia: Estudiante pasa como parámetro temporal para la operación
+    # Pasamos al estudiante como parámetro, lo usamos y ya
     def generar_reporte_estudiante(self, estudiante: Estudiante) -> None:
         print("==========================================")
         print("       REPORTE ACADÉMICO DE ESTUDIANTE    ")
@@ -145,13 +141,12 @@ class Reporte:
     def __str__(self) -> str:
         return "Reporte [modulo=Generador de reportes temporales]"
 
-# PROGRAMA PRINCIPAL (Main)
-# Este bloque if __name__ == "__main__": simula el método public static void main(String[] args)
+# --- PROGRAMA PRINCIPAL ---
 def main() -> None:
     print("        SISTEMA DE GESTIÓN UNIVERSITARIA          ")
     print("\n")
 
-    # 1. Creación de 2 profesores (Herencia)
+    # 1. Herencia: Creando profesores y estudiantes
     prof1: Profesor = Profesor("Dr. Carlos Ruiz", 48, "Sistemas Distribuidos")
     prof2: Profesor = Profesor("MSc. Ana Paredes", 39, "Arquitectura de Software")
 
@@ -160,7 +155,6 @@ def main() -> None:
     print(prof2)
     print()
 
-    # 2. Creación de 3 estudiantes (Herencia)
     est1: Estudiante = Estudiante("Juan Perez", 20, "20220101")
     est2: Estudiante = Estudiante("Maria Lopez", 22, "20210452")
     est3: Estudiante = Estudiante("Luis Quispe", 21, "20221189")
@@ -171,7 +165,7 @@ def main() -> None:
     print(est3)
     print()
 
-    # 3. Creación de 2 cursos (Composición con Horario)
+    # 2. Composición: Al crear el curso, internamente nace su horario
     curso1: Curso = Curso("Tecnologia de Objetos", "Lunes y Miercoles", "08:00 - 10:00")
     curso2: Curso = Curso("Bases de Datos Avanzadas", "Martes y Jueves", "14:00 - 16:00")
 
@@ -180,7 +174,7 @@ def main() -> None:
     print(curso2)
     print()
 
-    # 4. Agregar cursos a la Universidad (Agregación)
+    # 3. Agregación: Metemos los cursos ya creados a la universidad
     uni: Universidad = Universidad("Universidad Nacional Tecnológica")
     uni.agregar_curso(curso1)
     uni.agregar_curso(curso2)
@@ -191,7 +185,7 @@ def main() -> None:
         print(f" -> {c}")
     print()
 
-    # 5. Generar reporte de un estudiante (Dependencia)
+    # 4. Dependencia: Generamos el reporte de un alumno
     reporte: Reporte = Reporte()
     reporte.generar_reporte_estudiante(est1)
 
