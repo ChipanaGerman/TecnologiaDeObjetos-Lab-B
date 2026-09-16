@@ -1,0 +1,193 @@
+2026.09.16 12:16:54 INFO  Started: Metals version 1.6.9 in folders 'C:\Users\User\German_UNSA\TERCER_ANIO\B\TECNOLOGIA_OBJETOS\Laboratorios\TecnologiaDeObjetos-Lab-B\Lab3' for client Visual Studio Code 1.98.2.
+2026.09.16 12:16:54 INFO  Memory monitor started
+2026.09.16 12:16:55 WARN  Using H2 2.5.250 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.09.16 12:16:55 INFO  no build target found for C:\Users\User\German_UNSA\TERCER_ANIO\B\TECNOLOGIA_OBJETOS\Laboratorios\TecnologiaDeObjetos-Lab-B\Lab3\TrapecioIntegral.java. Using fallback presentation compiler.
+2026.09.16 12:16:56 INFO  no build target found for C:\Users\User\German_UNSA\TERCER_ANIO\B\TECNOLOGIA_OBJETOS\Laboratorios\TecnologiaDeObjetos-Lab-B\Lab3\TrapecioIntegral.java. Using fallback presentation compiler.
+2026.09.16 12:16:56 WARN  no build tool detected in workspace 'C:\Users\User\German_UNSA\TERCER_ANIO\B\TECNOLOGIA_OBJETOS\Laboratorios\TecnologiaDeObjetos-Lab-B\Lab3'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2026.09.16 12:16:56 WARN  Build server is not auto-connectable.
+2026.09.16 12:16:56 WARN  no build target for: C:\Users\User\German_UNSA\TERCER_ANIO\B\TECNOLOGIA_OBJETOS\Laboratorios\TecnologiaDeObjetos-Lab-B\Lab3\TrapecioIntegral.java
+2026.09.16 12:16:56 INFO  no build target found for C:\Users\User\German_UNSA\TERCER_ANIO\B\TECNOLOGIA_OBJETOS\Laboratorios\TecnologiaDeObjetos-Lab-B\Lab3\TrapecioIntegral.java. Using fallback presentation compiler.
+2026.09.16 12:16:59 INFO  time: code lens generation in 2.29s
+2026.09.16 12:17:03 INFO  no build target found for C:\Users\User\German_UNSA\TERCER_ANIO\B\TECNOLOGIA_OBJETOS\Laboratorios\TecnologiaDeObjetos-Lab-B\Lab3\TrapecioIntegral.java. Using fallback presentation compiler.
+2026.09.16 12:17:04 INFO  no build target found for C:\Users\User\German_UNSA\TERCER_ANIO\B\TECNOLOGIA_OBJETOS\Laboratorios\TecnologiaDeObjetos-Lab-B\Lab3\TrapecioIntegral.java. Using fallback presentation compiler.
+2026.09.16 12:17:07 INFO  no build target found for C:\Users\User\German_UNSA\TERCER_ANIO\B\TECNOLOGIA_OBJETOS\Laboratorios\TecnologiaDeObjetos-Lab-B\Lab3\TrapecioIntegral.java. Using fallback presentation compiler.
+2026.09.16 12:17:16 INFO  no build target found for C:\Users\User\German_UNSA\TERCER_ANIO\B\TECNOLOGIA_OBJETOS\Laboratorios\TecnologiaDeObjetos-Lab-B\Lab3\TrapecioIntegral.java. Using fallback presentation compiler.
+2026.09.16 12:17:18 INFO  no build target found for C:\Users\User\German_UNSA\TERCER_ANIO\B\TECNOLOGIA_OBJETOS\Laboratorios\TecnologiaDeObjetos-Lab-B\Lab3\TrapecioIntegral.java. Using fallback presentation compiler.
+2026.09.16 12:18:55 INFO  no build target found for C:\Users\User\German_UNSA\TERCER_ANIO\B\TECNOLOGIA_OBJETOS\Laboratorios\TecnologiaDeObjetos-Lab-B\Lab3\TrapecioIntegral.java. Using fallback presentation compiler.
+2026.09.16 12:18:55 WARN  no build target for: C:\Users\User\German_UNSA\TERCER_ANIO\B\TECNOLOGIA_OBJETOS\Laboratorios\TecnologiaDeObjetos-Lab-B\Lab3\TrapecioIntegral.java
+2026.09.16 12:18:55 INFO  no build target found for C:\Users\User\German_UNSA\TERCER_ANIO\B\TECNOLOGIA_OBJETOS\Laboratorios\TecnologiaDeObjetos-Lab-B\Lab3\TrapecioIntegral.java. Using fallback presentation compiler.
+2026.09.16 12:18:55 INFO  no build target found for C:\Users\User\German_UNSA\TERCER_ANIO\B\TECNOLOGIA_OBJETOS\Laboratorios\TecnologiaDeObjetos-Lab-B\Lab3\TrapecioIntegral.java. Using fallback presentation compiler.
+2026.09.16 12:18:56 INFO  no build target found for C:\Users\User\German_UNSA\TERCER_ANIO\B\TECNOLOGIA_OBJETOS\Laboratorios\TecnologiaDeObjetos-Lab-B\Lab3\TrapecioIntegral.java. Using fallback presentation compiler.
+2026.09.16 12:19:00 INFO  no build target found for C:\Users\User\German_UNSA\TERCER_ANIO\B\TECNOLOGIA_OBJETOS\Laboratorios\TecnologiaDeObjetos-Lab-B\Lab3\TrapecioIntegral.java. Using fallback presentation compiler.
+2026.09.16 12:19:03 INFO  no build target found for C:\Users\User\German_UNSA\TERCER_ANIO\B\TECNOLOGIA_OBJETOS\Laboratorios\TecnologiaDeObjetos-Lab-B\Lab3\TrapecioIntegral.java. Using fallback presentation compiler.
+2026.09.16 12:19:03 INFO  no build target found for C:\Users\User\German_UNSA\TERCER_ANIO\B\TECNOLOGIA_OBJETOS\Laboratorios\TecnologiaDeObjetos-Lab-B\Lab3\TrapecioIntegral.java. Using fallback presentation compiler.
+2026.09.16 12:19:05 INFO  no build target found for C:\Users\User\German_UNSA\TERCER_ANIO\B\TECNOLOGIA_OBJETOS\Laboratorios\TecnologiaDeObjetos-Lab-B\Lab3\TrapecioIntegral.java. Using fallback presentation compiler.
+2026.09.16 12:19:05 INFO  no build target found for C:\Users\User\German_UNSA\TERCER_ANIO\B\TECNOLOGIA_OBJETOS\Laboratorios\TecnologiaDeObjetos-Lab-B\Lab3\TrapecioIntegral.java. Using fallback presentation compiler.
+set. 16, 2026 12:19:05 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 30
+2026.09.16 12:19:05 INFO  no build target found for C:\Users\User\German_UNSA\TERCER_ANIO\B\TECNOLOGIA_OBJETOS\Laboratorios\TecnologiaDeObjetos-Lab-B\Lab3\TrapecioIntegral.java. Using fallback presentation compiler.
+2026.09.16 12:19:07 INFO  no build target found for C:\Users\User\German_UNSA\TERCER_ANIO\B\TECNOLOGIA_OBJETOS\Laboratorios\TecnologiaDeObjetos-Lab-B\Lab3\TrapecioIntegral.java. Using fallback presentation compiler.
+2026.09.16 12:19:09 INFO  no build target found for C:\Users\User\German_UNSA\TERCER_ANIO\B\TECNOLOGIA_OBJETOS\Laboratorios\TecnologiaDeObjetos-Lab-B\Lab3\TrapecioIntegral.java. Using fallback presentation compiler.
+2026.09.16 12:19:09 INFO  no build target found for C:\Users\User\German_UNSA\TERCER_ANIO\B\TECNOLOGIA_OBJETOS\Laboratorios\TecnologiaDeObjetos-Lab-B\Lab3\TrapecioIntegral.java. Using fallback presentation compiler.
+2026.09.16 12:19:10 INFO  no build target found for C:\Users\User\German_UNSA\TERCER_ANIO\B\TECNOLOGIA_OBJETOS\Laboratorios\TecnologiaDeObjetos-Lab-B\Lab3\TrapecioIntegral.java. Using fallback presentation compiler.
+2026.09.16 12:19:12 INFO  no build target found for C:\Users\User\German_UNSA\TERCER_ANIO\B\TECNOLOGIA_OBJETOS\Laboratorios\TecnologiaDeObjetos-Lab-B\Lab3\TrapecioIntegral.java. Using fallback presentation compiler.
+2026.09.16 12:20:14 INFO  no build target found for C:\Users\User\German_UNSA\TERCER_ANIO\B\TECNOLOGIA_OBJETOS\Laboratorios\TecnologiaDeObjetos-Lab-B\Lab3\TrapecioIntegral.java. Using fallback presentation compiler.
+2026.09.16 12:20:14 WARN  no build target for: C:\Users\User\German_UNSA\TERCER_ANIO\B\TECNOLOGIA_OBJETOS\Laboratorios\TecnologiaDeObjetos-Lab-B\Lab3\TrapecioIntegral.java
+2026.09.16 12:20:14 INFO  no build target found for C:\Users\User\German_UNSA\TERCER_ANIO\B\TECNOLOGIA_OBJETOS\Laboratorios\TecnologiaDeObjetos-Lab-B\Lab3\TrapecioIntegral.java. Using fallback presentation compiler.
+2026.09.16 12:20:14 INFO  no build target found for C:\Users\User\German_UNSA\TERCER_ANIO\B\TECNOLOGIA_OBJETOS\Laboratorios\TecnologiaDeObjetos-Lab-B\Lab3\TrapecioIntegral.java. Using fallback presentation compiler.
+2026.09.16 12:20:15 INFO  no build target found for C:\Users\User\German_UNSA\TERCER_ANIO\B\TECNOLOGIA_OBJETOS\Laboratorios\TecnologiaDeObjetos-Lab-B\Lab3\TrapecioIntegral.java. Using fallback presentation compiler.
+2026.09.16 12:20:17 INFO  no build target found for C:\Users\User\German_UNSA\TERCER_ANIO\B\TECNOLOGIA_OBJETOS\Laboratorios\TecnologiaDeObjetos-Lab-B\Lab3\TrapecioIntegral.java. Using fallback presentation compiler.
+2026.09.16 12:20:17 INFO  no build target found for C:\Users\User\German_UNSA\TERCER_ANIO\B\TECNOLOGIA_OBJETOS\Laboratorios\TecnologiaDeObjetos-Lab-B\Lab3\TrapecioIntegral.java. Using fallback presentation compiler.
+2026.09.16 12:20:19 INFO  no build target found for C:\Users\User\German_UNSA\TERCER_ANIO\B\TECNOLOGIA_OBJETOS\Laboratorios\TecnologiaDeObjetos-Lab-B\Lab3\TrapecioIntegral.java. Using fallback presentation compiler.
+2026.09.16 12:20:19 INFO  no build target found for C:\Users\User\German_UNSA\TERCER_ANIO\B\TECNOLOGIA_OBJETOS\Laboratorios\TecnologiaDeObjetos-Lab-B\Lab3\TrapecioIntegral.java. Using fallback presentation compiler.
+2026.09.16 12:20:19 INFO  no build target found for C:\Users\User\German_UNSA\TERCER_ANIO\B\TECNOLOGIA_OBJETOS\Laboratorios\TecnologiaDeObjetos-Lab-B\Lab3\TrapecioIntegral.java. Using fallback presentation compiler.
+2026.09.16 12:20:19 INFO  no build target found for C:\Users\User\German_UNSA\TERCER_ANIO\B\TECNOLOGIA_OBJETOS\Laboratorios\TecnologiaDeObjetos-Lab-B\Lab3\TrapecioIntegral.java. Using fallback presentation compiler.
+2026.09.16 12:20:19 INFO  no build target found for C:\Users\User\German_UNSA\TERCER_ANIO\B\TECNOLOGIA_OBJETOS\Laboratorios\TecnologiaDeObjetos-Lab-B\Lab3\TrapecioIntegral.java. Using fallback presentation compiler.
+2026.09.16 12:20:19 INFO  no build target found for C:\Users\User\German_UNSA\TERCER_ANIO\B\TECNOLOGIA_OBJETOS\Laboratorios\TecnologiaDeObjetos-Lab-B\Lab3\TrapecioIntegral.java. Using fallback presentation compiler.
+2026.09.16 12:20:20 WARN  no build target for: C:\Users\User\German_UNSA\TERCER_ANIO\B\TECNOLOGIA_OBJETOS\Laboratorios\TecnologiaDeObjetos-Lab-B\Lab3\TrapecioIntegral.java
+2026.09.16 12:20:19 INFO  no build target found for C:\Users\User\German_UNSA\TERCER_ANIO\B\TECNOLOGIA_OBJETOS\Laboratorios\TecnologiaDeObjetos-Lab-B\Lab3\TrapecioIntegral.java. Using fallback presentation compiler.
+2026.09.16 12:20:21 INFO  no build target found for C:\Users\User\German_UNSA\TERCER_ANIO\B\TECNOLOGIA_OBJETOS\Laboratorios\TecnologiaDeObjetos-Lab-B\Lab3\TrapecioIntegral.java. Using fallback presentation compiler.
+2026.09.16 12:20:23 INFO  no build target found for C:\Users\User\German_UNSA\TERCER_ANIO\B\TECNOLOGIA_OBJETOS\Laboratorios\TecnologiaDeObjetos-Lab-B\Lab3\TrapecioIntegral.java. Using fallback presentation compiler.
+2026.09.16 12:20:23 INFO  no build target found for C:\Users\User\German_UNSA\TERCER_ANIO\B\TECNOLOGIA_OBJETOS\Laboratorios\TecnologiaDeObjetos-Lab-B\Lab3\TrapecioIntegral.java. Using fallback presentation compiler.
+2026.09.16 12:20:23 INFO  no build target found for C:\Users\User\German_UNSA\TERCER_ANIO\B\TECNOLOGIA_OBJETOS\Laboratorios\TecnologiaDeObjetos-Lab-B\Lab3\TrapecioIntegral.java. Using fallback presentation compiler.
+2026.09.16 12:20:24 INFO  no build target found for C:\Users\User\German_UNSA\TERCER_ANIO\B\TECNOLOGIA_OBJETOS\Laboratorios\TecnologiaDeObjetos-Lab-B\Lab3\TrapecioIntegral.java. Using fallback presentation compiler.
+2026.09.16 12:20:23 INFO  no build target found for C:\Users\User\German_UNSA\TERCER_ANIO\B\TECNOLOGIA_OBJETOS\Laboratorios\TecnologiaDeObjetos-Lab-B\Lab3\TrapecioIntegral.java. Using fallback presentation compiler.
+2026.09.16 12:20:23 INFO  no build target found for C:\Users\User\German_UNSA\TERCER_ANIO\B\TECNOLOGIA_OBJETOS\Laboratorios\TecnologiaDeObjetos-Lab-B\Lab3\TrapecioIntegral.java. Using fallback presentation compiler.
+2026.09.16 12:20:24 INFO  no build target found for C:\Users\User\German_UNSA\TERCER_ANIO\B\TECNOLOGIA_OBJETOS\Laboratorios\TecnologiaDeObjetos-Lab-B\Lab3\TrapecioIntegral.java. Using fallback presentation compiler.
+2026.09.16 12:20:23 INFO  no build target found for C:\Users\User\German_UNSA\TERCER_ANIO\B\TECNOLOGIA_OBJETOS\Laboratorios\TecnologiaDeObjetos-Lab-B\Lab3\TrapecioIntegral.java. Using fallback presentation compiler.
+2026.09.16 12:20:25 INFO  no build target found for C:\Users\User\German_UNSA\TERCER_ANIO\B\TECNOLOGIA_OBJETOS\Laboratorios\TecnologiaDeObjetos-Lab-B\Lab3\TrapecioIntegral.java. Using fallback presentation compiler.
+2026.09.16 12:20:25 INFO  no build target found for C:\Users\User\German_UNSA\TERCER_ANIO\B\TECNOLOGIA_OBJETOS\Laboratorios\TecnologiaDeObjetos-Lab-B\Lab3\TrapecioIntegral.java. Using fallback presentation compiler.
+2026.09.16 12:20:25 INFO  no build target found for C:\Users\User\German_UNSA\TERCER_ANIO\B\TECNOLOGIA_OBJETOS\Laboratorios\TecnologiaDeObjetos-Lab-B\Lab3\TrapecioIntegral.java. Using fallback presentation compiler.
+2026.09.16 12:20:26 WARN  no build target for: C:\Users\User\German_UNSA\TERCER_ANIO\B\TECNOLOGIA_OBJETOS\Laboratorios\TecnologiaDeObjetos-Lab-B\Lab3\TrapecioIntegral.java
+2026.09.16 12:20:26 INFO  no build target found for C:\Users\User\German_UNSA\TERCER_ANIO\B\TECNOLOGIA_OBJETOS\Laboratorios\TecnologiaDeObjetos-Lab-B\Lab3\TrapecioIntegral.java. Using fallback presentation compiler.
+2026.09.16 12:21:06 WARN  no build target for: C:\Users\User\German_UNSA\TERCER_ANIO\B\TECNOLOGIA_OBJETOS\Laboratorios\TecnologiaDeObjetos-Lab-B\Lab3\TrapecioIntegral.java
+2026.09.16 12:21:06 INFO  no build target found for C:\Users\User\German_UNSA\TERCER_ANIO\B\TECNOLOGIA_OBJETOS\Laboratorios\TecnologiaDeObjetos-Lab-B\Lab3\TrapecioIntegral.java. Using fallback presentation compiler.
+2026.09.16 12:21:10 WARN  no build target for: C:\Users\User\German_UNSA\TERCER_ANIO\B\TECNOLOGIA_OBJETOS\Laboratorios\TecnologiaDeObjetos-Lab-B\Lab3\TrapecioIntegral.java
+2026.09.16 12:21:10 INFO  no build target found for C:\Users\User\German_UNSA\TERCER_ANIO\B\TECNOLOGIA_OBJETOS\Laboratorios\TecnologiaDeObjetos-Lab-B\Lab3\TrapecioIntegral.java. Using fallback presentation compiler.
+2026.09.16 12:21:13 WARN  no build target for: C:\Users\User\German_UNSA\TERCER_ANIO\B\TECNOLOGIA_OBJETOS\Laboratorios\TecnologiaDeObjetos-Lab-B\Lab3\TrapecioIntegral.java
+2026.09.16 12:21:13 INFO  no build target found for C:\Users\User\German_UNSA\TERCER_ANIO\B\TECNOLOGIA_OBJETOS\Laboratorios\TecnologiaDeObjetos-Lab-B\Lab3\TrapecioIntegral.java. Using fallback presentation compiler.
+2026.09.16 12:22:15 INFO  no build target found for C:\Users\User\German_UNSA\TERCER_ANIO\B\TECNOLOGIA_OBJETOS\Laboratorios\TecnologiaDeObjetos-Lab-B\Lab3\TrapecioIntegral.java. Using fallback presentation compiler.
+2026.09.16 12:23:54 INFO  no build target found for C:\Users\User\German_UNSA\TERCER_ANIO\B\TECNOLOGIA_OBJETOS\Laboratorios\TecnologiaDeObjetos-Lab-B\Lab3\TrapecioIntegral.java. Using fallback presentation compiler.
+2026.09.16 12:23:55 WARN  no build target for: C:\Users\User\German_UNSA\TERCER_ANIO\B\TECNOLOGIA_OBJETOS\Laboratorios\TecnologiaDeObjetos-Lab-B\Lab3\TrapecioIntegral.java
+2026.09.16 12:23:55 INFO  no build target found for C:\Users\User\German_UNSA\TERCER_ANIO\B\TECNOLOGIA_OBJETOS\Laboratorios\TecnologiaDeObjetos-Lab-B\Lab3\TrapecioIntegral.java. Using fallback presentation compiler.
+2026.09.16 12:23:54 INFO  no build target found for C:\Users\User\German_UNSA\TERCER_ANIO\B\TECNOLOGIA_OBJETOS\Laboratorios\TecnologiaDeObjetos-Lab-B\Lab3\TrapecioIntegral.java. Using fallback presentation compiler.
+set. 16, 2026 12:23:55 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "class:/c%3A/Users/User/German_UNSA/TERCER_ANIO/B/TECNOLOGIA_OBJETOS/Laboratorios/TecnologiaDeObjetos-Lab-B/Lab3/IntegradorParalelo.class"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "class" not installed
+	at java.base/java.nio.file.Path.of(Path.java:210)
+	at java.base/java.nio.file.Paths.get(Paths.java:95)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:149)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:221)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:787)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:784)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:810)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:225)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1095)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:619)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+
+set. 16, 2026 12:23:58 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "class:/c%3A/Users/User/German_UNSA/TERCER_ANIO/B/TECNOLOGIA_OBJETOS/Laboratorios/TecnologiaDeObjetos-Lab-B/Lab3/IntegradorParalelo.class"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "class" not installed
+	at java.base/java.nio.file.Path.of(Path.java:210)
+	at java.base/java.nio.file.Paths.get(Paths.java:95)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:149)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:221)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:787)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:784)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:810)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:225)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1095)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:619)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+
+set. 16, 2026 12:23:58 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "class:/c%3A/Users/User/German_UNSA/TERCER_ANIO/B/TECNOLOGIA_OBJETOS/Laboratorios/TecnologiaDeObjetos-Lab-B/Lab3/FuncionMatematica.class"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "class" not installed
+	at java.base/java.nio.file.Path.of(Path.java:210)
+	at java.base/java.nio.file.Paths.get(Paths.java:95)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:149)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:221)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:787)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:784)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:810)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:225)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1095)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:619)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+
+set. 16, 2026 12:26:43 P. M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+set. 16, 2026 12:26:54 P. M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+set. 16, 2026 12:26:56 P. M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.09.16 12:32:04 INFO  Shutting down server
+2026.09.16 12:32:04 INFO  Memory monitor stopped
+2026.09.16 12:32:04 INFO  shutting down Metals
+2026.09.16 12:32:04 INFO  Exiting server
+2026.09.16 12:34:12 INFO  Started: Metals version 1.6.9 in folders 'C:\Users\User\German_UNSA\TERCER_ANIO\B\TECNOLOGIA_OBJETOS\Laboratorios\TecnologiaDeObjetos-Lab-B\Lab3' for client Visual Studio Code 1.98.2.
+2026.09.16 12:34:12 INFO  time: initialize in 0.15s
+2026.09.16 12:34:12 INFO  Memory monitor started
+2026.09.16 12:34:21 WARN  Using H2 2.5.250 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.09.16 12:34:22 INFO  no build target found for C:\Users\User\German_UNSA\TERCER_ANIO\B\TECNOLOGIA_OBJETOS\Laboratorios\TecnologiaDeObjetos-Lab-B\Lab3\TrapecioIntegral.java. Using fallback presentation compiler.
+2026.09.16 12:34:27 WARN  no build tool detected in workspace 'C:\Users\User\German_UNSA\TERCER_ANIO\B\TECNOLOGIA_OBJETOS\Laboratorios\TecnologiaDeObjetos-Lab-B\Lab3'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2026.09.16 12:34:27 WARN  Build server is not auto-connectable.
+2026.09.16 12:34:27 WARN  no build target for: C:\Users\User\German_UNSA\TERCER_ANIO\B\TECNOLOGIA_OBJETOS\Laboratorios\TecnologiaDeObjetos-Lab-B\Lab3\TrapecioIntegral.java
+2026.09.16 12:34:27 INFO  no build target found for C:\Users\User\German_UNSA\TERCER_ANIO\B\TECNOLOGIA_OBJETOS\Laboratorios\TecnologiaDeObjetos-Lab-B\Lab3\TrapecioIntegral.java. Using fallback presentation compiler.
+2026.09.16 12:34:32 INFO  time: code lens generation in 4.99s
+2026.09.16 12:43:28 INFO  Shutting down server
+2026.09.16 12:43:28 INFO  Memory monitor stopped
+2026.09.16 12:43:28 INFO  shutting down Metals
+2026.09.16 12:43:28 INFO  Exiting server
