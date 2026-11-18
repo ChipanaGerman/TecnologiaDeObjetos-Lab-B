@@ -1,0 +1,47 @@
+@startuml
+skinparam classAttributeIconSize 0
+class MainWindow <<View>>
+class ActividadController <<Controller>>
+interface IRepositorio {
+  agregar(actividad)
+  listar()
+  cargar(ruta)
+}
+class RepositorioActividades <<Model>>
+class AdaptadorCsv <<Adapter>>
+class FuenteCsvHeredada <<Adaptee>>
+abstract class CreadorActividad <<Creator>> {
+  crear(datos)
+  {abstract} fabricar(datos)
+}
+class CreadorTarea
+class CreadorExamen
+class CreadorProyecto
+abstract class Actividad <<Product>>
+class Tarea
+class Examen
+class Proyecto
+MainWindow ..> ActividadController : conexion en main.cpp
+ActividadController --> IRepositorio
+ActividadController --> CreadorActividad
+IRepositorio <|.. RepositorioActividades
+IRepositorio <|.. AdaptadorCsv
+AdaptadorCsv --> IRepositorio : destino
+AdaptadorCsv --> FuenteCsvHeredada
+AdaptadorCsv --> CreadorActividad
+RepositorioActividades o-- Actividad
+CreadorActividad <|-- CreadorTarea
+CreadorActividad <|-- CreadorExamen
+CreadorActividad <|-- CreadorProyecto
+CreadorActividad ..> Actividad : crear valida; fabricar instancia
+CreadorTarea ..> Tarea
+CreadorExamen ..> Examen
+CreadorProyecto ..> Proyecto
+Actividad <|-- Tarea
+Actividad <|-- Examen
+Actividad <|-- Proyecto
+note bottom of MainWindow
+  Solo recibe Filas (DTO) y emite solicitudes.
+  Sin acceso a IRepositorio ni Actividad.
+end note
+@enduml

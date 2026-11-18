@@ -1,0 +1,21 @@
+@startuml
+actor Usuario
+participant MainWindow as V
+participant ActividadController as C
+participant CreadorActividad as F
+participant IRepositorio as R
+Usuario -> V : completar y crear
+V -> C : crearSolicitado(tipo, titulo, curso, fecha)
+C -> F : crear(datos)
+F -> F : validar y fabricar(datos)
+alt datos validos
+F --> C : Actividad concreta
+C -> R : agregar(actividad)
+C -> C : listar()
+C --> V : listadoActualizado(filas)
+C --> V : mensaje(exito, false)
+else datos invalidos
+F --> C : excepcion
+C --> V : mensaje(error, true)
+end
+@enduml

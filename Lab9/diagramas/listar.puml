@@ -1,0 +1,16 @@
+@startuml
+actor Usuario
+participant MainWindow as V
+participant ActividadController as C
+participant AdaptadorCsv as A
+participant RepositorioActividades as R
+Usuario -> V : actualizar listado
+V -> C : listarSolicitado()
+C -> A : listar()
+A -> R : listar()
+R --> A : copia de punteros a actividades const
+A --> C : actividades
+C -> C : convertir a Filas
+C --> V : listadoActualizado(filas)
+V -> V : mostrar tabla no editable
+@enduml

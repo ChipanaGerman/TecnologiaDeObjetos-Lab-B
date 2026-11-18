@@ -1,0 +1,32 @@
+@startuml
+actor Usuario
+participant MainWindow as V
+participant ActividadController as C
+participant AdaptadorCsv as A
+participant FuenteCsvHeredada as H
+participant CreadorActividad as F
+participant RepositorioActividades as R
+Usuario -> V : elegir CSV
+V -> C : cargarSolicitado(ruta)
+C -> A : cargar(ruta)
+A -> H : leerLineas(ruta)
+H --> A : lineas heredadas
+A -> A : comprobar cabecera
+loop cada fila no vacia
+A -> A : traducir codigo y fecha
+A -> F : crear(datos)
+F --> A : actividad / error
+alt fila valida
+A -> R : agregar(actividad)
+else error de fila o duplicado
+A -> A : registrar linea y motivo
+end
+end
+A --> C : aceptados y errores
+C -> C : listar()
+C --> V : listadoActualizado y mensaje
+note over C,A
+  Archivo inaccesible o cabecera incorrecta:
+  error global, sin importar registros.
+end note
+@enduml

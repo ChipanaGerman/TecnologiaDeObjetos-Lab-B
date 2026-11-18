@@ -1,0 +1,14 @@
+{
+  "metrica": "Tipos concretos de dominio/almacenamiento referenciados explicitamente en la vista (no Qt ni DTO)",
+  "antes": [
+    "Tarea",
+    "Examen",
+    "Proyecto",
+    "RepositorioActividades",
+    "FuenteCsvHeredada"
+  ],
+  "despues": [],
+  "limite": "Medicion lexica de referencias directas; no mide complejidad total ni dependencias transitivas.",
+  "cantidad_antes": 5,
+  "cantidad_despues": 0
+}
